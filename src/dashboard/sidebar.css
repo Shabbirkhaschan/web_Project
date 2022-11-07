@@ -1,0 +1,44 @@
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,0.9528186274509804) 19%, rgba(0,212,255,1) 100%);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+  .sidenav .dashMenu {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: block;
+    width: 160px;
+    /* height: 30px; */
+    border: 1px rgb(63, 59, 59) solid;
+  }
+
+  .dashMenu:hover{
+    background-color: rgb(8, 37, 41);
+  }
+
+  #logo{
+
+    width: 160px;
+    height: 10vh;
+   
+
+  }
+
+  .Links{
+    color: aliceblue;
+    text-decoration-line: none;
+  }
+  #act{
+
+   margin-top: 10vh;
+}
