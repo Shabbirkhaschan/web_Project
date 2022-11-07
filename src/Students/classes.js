@@ -4,8 +4,8 @@ import {Link} from "react-router-dom";
 import "./classes.css";
 function Classes() {
     
-    const classes=["Nursery","Prep Class","1st Class","2nd Class","3rd Class","4th Class",
-                   "5th Class", "6th Class","7th Class","Pre-9th Class","9th Class","10th Class"];
+    const classes=["Nursery","Prep","1st","2nd","3rd","4th",
+                   "5th", "6th","7th","Pre-9th","9th","10th"];
     
    const [classN,setClass]=useState("");
    
