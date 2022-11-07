@@ -10,6 +10,7 @@ function NavBar() {
             width:"15vw",
             height:"13vh",
              marginTop:"1.2%"
+            
            }}
            src="./logo.jpeg"/>
 

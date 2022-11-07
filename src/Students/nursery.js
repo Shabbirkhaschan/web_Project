@@ -2,7 +2,7 @@ function NurseryClass() {
     const nurName=[
 
        
-     "   1. Liam 	",
+"   1. Liam 	",
 "2. Noah 	",
 "3. Oliver 	",
 "4. Elijah 	",
