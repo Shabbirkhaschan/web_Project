@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import RightSide from "./rightSide";
 import "./sidebar.css";
 
 
@@ -9,7 +10,11 @@ function SideBar() {
     
     
     return (
+    
 
+      <div>  
+
+    
         <div  className="sidenav">
             <div id="logo">
                <img style={{
@@ -53,7 +58,9 @@ function SideBar() {
         </div>
 
             </div>
+     <RightSide/>
             
+            </div>
 
             );
 }

@@ -1,8 +1,8 @@
-import { stripBasename } from "@remix-run/router";
+
 import { useState } from "react";
 import {Link} from "react-router-dom";
 import "./classes.css";
-function Classes() {
+function Class() {
     
     const classes=["Nursery","Prep","1st","2nd","3rd","4th",
                    "5th", "6th","7th","Pre-9th","9th","10th"];
@@ -15,12 +15,12 @@ function Classes() {
    }
                    return (
 
-        <div id="MainDiv">
+                     <div id="MainDiv">
 
-            {
+                 {
                 classes.map((refClasses)=>
                 (
-                   <div id="Div">
+                   <div id="Div"style={{color: 'white'}}>
                   
                    
                     <Link to={"/"+refClasses} id="Grids">
@@ -39,4 +39,4 @@ function Classes() {
     );
 }
 
-export default Classes;
+export default Class;

@@ -1,5 +1,19 @@
 import "./navbar.css";
 import {Link} from "react-router-dom";
+import Fetures from "../Fetures/fetures";
+import Footer from "../Footer/footer";
+
+import React from 'react';
+
+
+// // <Anchor>
+// <Link href="#components-anchor-demo-basic" title="Basic demo" />
+// <Link href="#components-anchor-demo-static" title="Static demo" />
+// <Link href="#API" title="API">
+//   <Link href="#Anchor-Props" title="Anchor Props" />
+//   <Link href="#Link-Props" title="Link Props" />
+// </Link>
+// </Anchor>
 function NavBar() {
     return ( 
 
@@ -15,14 +29,25 @@ function NavBar() {
            src="./logo.jpeg"/>
 
         </div>
-
+      <div id="search">
+      <div class="input-group rounded">
+  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+  <span class="input-group-text border-0" id="search-addon">
+    <i class="fas fa-search"></i>
+  </span>
+</div>
+      </div>
         <div id="actions">
- 
-          <Link to="/home" className="act">
+           <h2>
+
+          <anchor>
+
+          
+          <Link  className="act"   href="fetures">
             HOME
           </Link>
             
-          <Link to="/fect" className="act">
+          <Link to="/fetures" className="act">
           FEATURES
             </Link>
 
@@ -38,11 +63,14 @@ function NavBar() {
             GET STARTED
             </Link>
 
-            <Link to="/login" className="act">
+            <Link to="/start" className="act">
             LOGIN
             </Link>
+            </anchor>
+            </h2>
 
         </div>
+        
         </div>
         <div id="ads">
             <img src="./background.jpg" style={{
@@ -77,33 +105,13 @@ function NavBar() {
               
             }}/>
         </div>
-        <div class="card-group">
-  <div class="card">
-    <img src="./mud.png" class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Multiuser</h5>
-      <p class="card-text">Schools Management System provides the multi user system for each employee and Teacher of a School with their distinct logins. It really helps and minimize the workload</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="./Multilanguage.png" class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Multilanguage1</h5>
-      <p class="card-text">Schools Management System automatically detects your preferred language and translates the entire system in your native language. You can also change the language with..</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="./attendance.png" class="card-img-top" alt="..."/>
-    <div class="card-body">
-      <h5 class="card-title">Attendence</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
+    <Fetures id="fetures"/>
+    <Footer/>
+
+
         </div>
+        
+        
      );
 }
 

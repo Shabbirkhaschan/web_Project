@@ -1,6 +1,6 @@
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    width: 12%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -9,6 +9,7 @@
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,0.9528186274509804) 19%, rgba(0,212,255,1) 100%);
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
+    
   }
 
   .sidenav .dashMenu {
@@ -30,6 +31,7 @@
 
     width: 160px;
     height: 10vh;
+    margin-left: 10px;
    
 
   }
@@ -41,4 +43,20 @@
   #act{
 
    margin-top: 10vh;
+}
+
+
+
+#right{
+
+  margin-left: 12%;
+  width: 85%;
+  height: 100vh;
+background-color: blue;
+
+background-image: url("./std.png");
+
+background-size: 100% ,100%;
+
+
 }

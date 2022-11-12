@@ -1,0 +1,38 @@
+
+#upr{
+    background-color: black;
+    text-align: center;
+  width: 100vw;
+    margin-top: 30px;
+    height: 10vh;
+}
+
+.copyright{
+    margin-top: 0px;
+    background-color: white;
+    color: black;
+}
+.container{
+    background-color: rgb(5, 186, 156);
+    width: 100vw;
+    margin-top: -5vh;
+
+   
+
+    
+}
+.copyright{
+    text-align: center;
+    background-color: black;
+    margin-top: -10vh;
+    
+}
+.row{
+    color: aliceblue;
+}
+#footer{
+    background-color: rgb(10, 217, 175);
+    width: 100vw;
+    height: 42vh;
+
+}

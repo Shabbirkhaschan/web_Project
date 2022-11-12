@@ -1,33 +1,52 @@
 
 
-import { Route,Routes } from "react-router-dom";
-import Login from "./dashboard/login";
-import SideBar from "./dashboard/sidebar";
-import NavBar from "./NavBar/navbar"
-import SeventhC from "./Students/7th";
-import Classes from "./Students/classes";
-import NurseryClass from "./Students/nursery";
-function App() {
+// import {Route,Routes } from "react-router-dom";
+
+import Time from "./Time/time";
+
+// import Nursery from "./Class/nursery";
+
+// import SideBar from "./Dashboard/sidebar";
+// import Login from "./Login/login";
+// import NavBar from "./NavBar/navbar"
+
+// import Class from "./Students/classes";
+// import Signup from "./Form/signup";
+// import Footer from "./Footer/footer";
+// import Prep from "./Class/prep";
+
+
+function App( ) {
+
+
+ 
   return (
     <div className="App">
       
-{/* 
-      <Classes/> */}
+
       
       
-         
+
+     
+{          
       <Routes>
 
         <Route path="/" element={<NavBar/>}/>
           
         
-        <Route path="/start" element={<SideBar/>}/>
-        <Route path="/login" element={<Login/>}/>
-        <Route path="/student" element={<Classes/>}/>
-        <Route path="/Nursery" element={<NurseryClass/>}/>
-        <Route path="/7th" element={<SeventhC/>}/>
+        <Route path="/start" element={<Login/>}/>
+        <Route path="/login" element={<SideBar/>}/>
+        <Route path="/student" element={<Class/>}/>
+        <Route path="/Nursery" element={<Nursery/>}/>
+        <Route path="/signUp" element={<Signup/>}/>
+        <Route path="/Prep" element={<Prep/>}/>
+        <Route path="/act" element={<fMain/>}/>
 
-      </Routes>
+      </Routes> }
+
+      {/* <Footer/> */}
+      <Time/>
+   
      
     </div>
   );
