@@ -23,7 +23,7 @@ function Time(){
     }
     )
     return ( 
-        <div                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           >
+        <div >                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          >
                     {       
                         Time.map((ref)=>
                             <div style={{

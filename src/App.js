@@ -1,5 +1,6 @@
 
 
+
 // import {Route,Routes } from "react-router-dom";
 
 import Time from "./Time/time";
@@ -18,22 +19,13 @@ import Time from "./Time/time";
 
 function App( ) {
 
-
- 
-  return (
-    <div className="App">
-      
-
-      
-      
-
      
 {          
       <Routes>
 
         <Route path="/" element={<NavBar/>}/>
           
-        
+      
         <Route path="/start" element={<Login/>}/>
         <Route path="/login" element={<SideBar/>}/>
         <Route path="/student" element={<Class/>}/>
@@ -41,6 +33,8 @@ function App( ) {
         <Route path="/signUp" element={<Signup/>}/>
         <Route path="/Prep" element={<Prep/>}/>
         <Route path="/act" element={<fMain/>}/>
+
+
 
       </Routes> }
 

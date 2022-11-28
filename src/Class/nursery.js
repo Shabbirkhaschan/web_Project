@@ -1,22 +1,28 @@
+<<<<<<< HEAD:src/Class/nursery.js
 import "./nursery.css";
 function Nursery() {
 const Nursery=[
  "   1. Liam 	",
+=======
+function SeventhC() {
+const SeventhC=[
+ " 1. Liam 	",
+>>>>>>> 0d354e0c0d238d5975d02f069984a999cc5d2f4e:src/Students/7th.js
 "2. Noah 	",
 "3. Oliver 	",
 "4. Elijah 	",
 "5. William","6. James ",	
 "7. Benjamin",
-	"8. Lucas","9. Henry" ,	
+"8. Lucas","9. Henry" ,	
 "1.Alexander", 	
 "11. Mason ",	
 "12. Michael ",	
 "13. Ethan ",	
 "14. Daniel",
-    "   15. Liam 	",
- "16. Noah 	",
- "17. Oliver 	",
-"18. Elijah 	",
+"15. Liam ",
+ "16. Noah ",
+ "17. Oliver ",
+"18. Elijah ",
 "19. William", "20. James ",	
 "21. Benjamin","22. Lucas", 	
  "23. Henry" ,	
