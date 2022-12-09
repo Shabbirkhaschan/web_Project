@@ -40,12 +40,12 @@ function SideBar() {
 </div>
                 </div>
 
-                <div id="act">
-                <Link  className="Links" to="/student"><div className="dashMenu">
-           Student
-                 </div></Link>
-                 <Link className="Links" to="/fee"><div className="dashMenu">Fee</div></Link>
-                 <Link className="Links" to="/examsCell">  <div className="dashMenu">Exams Cell</div></Link>
+            <div id="act">
+            <Link  className="Links" to="/student"><div className="dashMenu">
+                   Student
+            </div></Link>
+            <Link className="Links" to="/fee"><div className="dashMenu">Fee</div></Link>
+            <Link className="Links" to="/examsCell">  <div className="dashMenu">Exams Cell</div></Link>
             <div className="dashMenu"><Link className="Links" to="/faculty">Faculty</Link></div>
 
             <Link className="Links" to="/attendence">  <div className="dashMenu">Attendence</div></Link>

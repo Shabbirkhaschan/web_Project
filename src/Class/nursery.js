@@ -1,13 +1,8 @@
-<<<<<<< HEAD:src/Class/nursery.js
+
 import "./nursery.css";
 function Nursery() {
 const Nursery=[
- "   1. Liam 	",
-=======
-function SeventhC() {
-const SeventhC=[
  " 1. Liam 	",
->>>>>>> 0d354e0c0d238d5975d02f069984a999cc5d2f4e:src/Students/7th.js
 "2. Noah 	",
 "3. Oliver 	",
 "4. Elijah 	",

@@ -38,9 +38,9 @@ function NavBar() {
 </div>
       </div>
         <div id="actions">
-           <h2>
+           <h1>
 
-          <anchor>
+        
 
           
           <Link  className="act"   href="fetures">
@@ -66,19 +66,49 @@ function NavBar() {
             <Link to="/start" className="act">
             LOGIN
             </Link>
-            </anchor>
-            </h2>
+      
+            </h1>
 
         </div>
         
         </div>
-        <div id="ads">
+        {/* <div id="ads">
             <img src="./background.jpg" style={{
                 marginTop:"15.4vh",
                 width:"100%",
                 height:"65vh",
             }}/>
-        </div>
+        </div>  */}
+ {/* Carousel */}
+
+
+<div  >
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./background.jpg" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="./home.jpg" class="d-block w-100" alt="..."/>
+    </div>
+    <div class="carousel-item">
+      <img src="attendance.png" class="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
+
+
+
         <div id="trial">
           <div id="centerTrial">
             

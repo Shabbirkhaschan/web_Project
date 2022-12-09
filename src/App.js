@@ -1,26 +1,25 @@
 
 
 
-// import {Route,Routes } from "react-router-dom";
+import {Route,Routes } from "react-router-dom"
 
-import Time from "./Time/time";
+import Nursery from "./Class/nursery";
 
-// import Nursery from "./Class/nursery";
-
-// import SideBar from "./Dashboard/sidebar";
-// import Login from "./Login/login";
-// import NavBar from "./NavBar/navbar"
-
-// import Class from "./Students/classes";
-// import Signup from "./Form/signup";
-// import Footer from "./Footer/footer";
-// import Prep from "./Class/prep";
+import SideBar from "./Dashboard/sidebar";
+import Login from "./Login/login";
+import NavBar from "./NavBar/navbar"
+import Class from "./Students/classes";
+import Signup from "./Form/signup";
+//import Footer from "./Footer/footer";
+import Prep from "./Class/prep";
 
 
 function App( ) {
 
-     
-{          
+     return(
+      <div>
+{    
+        
       <Routes>
 
         <Route path="/" element={<NavBar/>}/>
@@ -38,8 +37,8 @@ function App( ) {
 
       </Routes> }
 
-      {/* <Footer/> */}
-      <Time/>
+      
+    
    
      
     </div>
