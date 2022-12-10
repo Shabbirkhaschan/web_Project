@@ -53,3 +53,17 @@ margin-top: -10vh;
     margin-right: 40vw;
     margin-top: -35px;
 }
+#client{
+    height: 300px;
+    width: 100%;
+    background-color: dodgerblue;
+}
+#clientText{
+    text-align: center;
+    color: aliceblue;
+}
+#carouselExampleInterval{
+    height: 100px;
+    width: 30%;
+
+}

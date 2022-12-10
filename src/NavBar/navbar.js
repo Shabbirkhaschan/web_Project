@@ -125,9 +125,17 @@ function NavBar() {
             }}/>
         </div>
     <Fetures id="fetures"/>
+   
+    <div id="client">
+            <h2 id="clientText">
+              Our Client
+            </h2>
+           
+
+
+
+    </div>
     <Footer/>
-
-
         </div>
         
         
